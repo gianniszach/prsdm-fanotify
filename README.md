@@ -36,3 +36,14 @@ func isFiltered(path string) bool {
   return true
 }
 ```
+example go.mod:
+```
+module fswatch
+
+go 1.20
+
+require (
+	github.com/gianniszach/prsdm-fanotify v0.0.0-20230517123316-6a34de5ddd7d
+	golang.org/x/sys v0.7.0
+)
+```
